@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "fusioncharts": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/fusioncharts": "^3.12.3"
+  }
+}
