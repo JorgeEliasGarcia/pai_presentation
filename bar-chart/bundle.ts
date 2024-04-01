@@ -24,8 +24,8 @@ FusionCharts.ready(function () {
   const chart = new FusionCharts({
     type: 'column2d',
     renderAt: 'chart-container',
-    width: '600',
-    height: '400',
+    width: '1200',
+    height: '800',
     dataFormat: 'json',
     dataSource
   });
