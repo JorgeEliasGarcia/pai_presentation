@@ -1,5 +1,5 @@
-/// <reference path="node_modules/fusioncharts/fusioncharts.charts.d.ts" />
-/// <reference path="node_modules/fusioncharts/themes/fusioncharts.theme.fusion.d.ts" />
+/// <reference path="../node_modules/fusioncharts/fusioncharts.charts.d.ts" />
+/// <reference path="../node_modules/fusioncharts/themes/fusioncharts.theme.fusion.d.ts" />
 
 // Datos del gráfico
 const dataSource = {
@@ -31,5 +31,3 @@ FusionCharts.ready(function () {
   });
   chart.render();
 });
-
-console.log("dentro");
