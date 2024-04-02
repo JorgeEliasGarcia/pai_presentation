@@ -8,8 +8,7 @@ const dataSource = {
     subCaption: "Top 5 países con mayor población",
     xAxisName: "País",
     yAxisName: "Población (en millones)",
-    theme: "fusion",
-    animation: true
+    theme: "fusion"
   },
   data: [
     { label: "China", value: "1382" },
@@ -24,9 +23,9 @@ const dataSource = {
 FusionCharts.ready(function () {
   const chart = new FusionCharts({
     type: 'column2d',
-    renderAt: 'chart-container',
-    width: '1200',
-    height: '800',
+    renderAt: 'chart-container', // Aquí se ajusta al ID del contenedor en el HTML
+    width: '600', // Se ajusta al tamaño del contenedor en el HTML
+    height: '400', // Se ajusta al tamaño del contenedor en el HTML
     dataFormat: 'json',
     dataSource
   });

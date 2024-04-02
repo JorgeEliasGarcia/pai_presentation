@@ -6,14 +6,14 @@ var dataSource = {
         caption: "Distribución de Ingresos por Sector en Fictilandia",
         subCaption: "Año 2024",
         theme: "candy",
-        showPercentValues: "1",
-        decimals: "1",
-        plotToolText: "<b>$label</b>: $percentValue%",
-        showLegend: "1",
+        showPercentValues: true,
+        decimals: true,
+        plotToolText: "<div style='font-weight:bold;background-color:yellow;padding:10px;border-radius:5px;'><b>$label</b>: $percentValue</div>",
+        showLegend: true,
         legendPosition: "bottom"
     },
     data: [
-        { label: "Agricultura", value: "30" },
+        { label: "Agricultura", value: "30", link: "https://agroingeniacanarias.com/wp-content/uploads/2021/07/cultivos-en-canarias.jpg" },
         { label: "Manufactura", value: "25" },
         { label: "Servicios", value: "35" },
         { label: "Turismo", value: "10" }

@@ -11,6 +11,7 @@ var dataSource = {
         numberSuffix: "K",
         showValues: "0",
         drawAnchors: "0",
+        animation: true,
     },
     data: [
         { label: "Enero", value: "35" },
