@@ -9,7 +9,7 @@ const dataSource = {
     theme: "candy",
     showPercentValues: true,
     decimals: true,
-    plotToolText: "<div style='font-weight:bold;background-color:yellow;padding:10px;border-radius:5px;'><b>$label</b>: $percentValue</div>",
+    plotToolText: "<div style='font-weight:bold; background-color:yellow; padding:10px; border-radius:5px;'><b>$label</b>: $percentValue</div>",
     showLegend: true,
     legendPosition: "bottom"
   },
