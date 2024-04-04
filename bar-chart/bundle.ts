@@ -4,19 +4,21 @@
 // Datos del gráfico
 const dataSource = {
   chart: {
-    caption: "Ejemplo de gráfico de barras",
-    subCaption: "Top 5 países con mayor población",
-    xAxisName: "País",
-    yAxisName: "Población (en millones)",
-    theme: "fusion",
-    animation: true
+    caption: 'Calificaciones de Exámenes',
+    subCaption: 'Top 5 estudiantes con las calificaciones más altas',
+    xAxisName: 'Estudiante',
+    yAxisName: 'Nota',
+    theme: 'fusion',
+    animation: true, 
+    decimals: true,
+    showLegend: true,
   },
   data: [
-    { label: "China", value: "1382" },
-    { label: "India", value: "1339" },
-    { label: "EE.UU.", value: "328" },
-    { label: "Indonesia", value: "270" },
-    { label: "Pakistán", value: "220" }
+    { label: 'Alice', value: '9.2' }, // Calificación de Alice
+    { label: 'Bob', value: '8' }, // Calificación de Bob
+    { label: 'Charlie', value: '7.5' }, // Calificación de Charlie
+    { label: 'David', value: '7.0' }, // Calificación de David
+    { label: 'Eve', value: '6.25' } // Calificación de Eve
   ]
 };
 
