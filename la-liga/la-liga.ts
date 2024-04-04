@@ -13,7 +13,7 @@ const dataSource = {
     bgColor: '#2c3e50',
     valueFontColor: '#ffffff',
     showValues: true,
-    plotToolText: '<div style=\'font-weight:bold; background-color:lightblue; padding:10px; border-radius:5px; color:black;\'><b>$label</b>: $value</div>',
+    plotToolText: '<div style=\'font-weight:bold; background-color:lightblue; padding:10px; border-radius:5px; color:black;\'> <b>$label</b>: $value </div>',
   },
   data: [
     { label: 'Barcelona', value: '90', color: '#fc0d1b,#fbb034', link: 'https://i.pinimg.com/736x/d4/d9/25/d4d9258a4e8fd626b4c72e177d10daef.jpg'},   // Azul y grana
