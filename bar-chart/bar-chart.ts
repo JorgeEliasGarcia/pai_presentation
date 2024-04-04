@@ -25,7 +25,7 @@ const dataSource = {
 // Renderiza el gráfico
 FusionCharts.ready(function () {
   const chart = new FusionCharts({
-    type: 'column2d',
+    type: 'column3d',
     renderAt: 'chart-container',
     width: '1200',
     height: '800',
