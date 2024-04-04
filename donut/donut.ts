@@ -24,10 +24,10 @@ const dataSource = {
 // Renderiza el gráfico
 FusionCharts.ready(function () {
   const chart = new FusionCharts({
-    type: 'pie2d',
+    type: 'doughnut3d',
     renderAt: 'chart-container',
-    width: '1600',
-    height: '900',
+    width: '1200',
+    height: '700',
     dataFormat: 'json',
     dataSource
   });
