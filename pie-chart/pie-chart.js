@@ -1,5 +1,5 @@
 /// <reference path='../node_modules/fusioncharts/fusioncharts.charts.d.ts' />
-/// <reference path='../node_modules/fusioncharts/themes/fusioncharts.theme.candy.d.ts' />
+/// <reference path='../node_modules/fusioncharts/themes/fusioncharts.theme.fusion.d.ts' />
 // Datos del gráfico
 var dataSource = {
     chart: {

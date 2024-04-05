@@ -1,5 +1,6 @@
 /// <reference path='../node_modules/fusioncharts/fusioncharts.charts.d.ts' />
 /// <reference path='../node_modules/fusioncharts/themes/fusioncharts.theme.fusion.d.ts' />
+var BGCOLOR = '#2c3e50';
 var dataSource = {
     chart: {
         caption: 'Clasificación de la Liga Española',
@@ -7,9 +8,8 @@ var dataSource = {
         xAxisName: 'Equipos',
         yAxisName: 'Puntos',
         baseFontColor: '#ffffff', // Establece todos los colores de texto en blanco
-        theme: 'fusion',
         animation: true,
-        bgColor: '#2c3e50',
+        bgColor: BGCOLOR,
         valueFontColor: '#ffffff',
         showValues: true,
         plotToolText: '<div style=\'font-weight:bold; background-color:lightblue; padding:10px; border-radius:5px; color:black;\'> <b>$label</b>: $value puntos </div>',

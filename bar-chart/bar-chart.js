@@ -10,7 +10,6 @@ var dataSource = {
         theme: 'fusion',
         animation: true,
         decimals: true,
-        showLegend: true,
     },
     data: [
         { label: 'Alice', value: '9.2' }, // Calificación de Alice

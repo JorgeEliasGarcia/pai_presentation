@@ -4,15 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gráfico de Barras</title>
+
   <!-- Incluye FusionCharts y el tema -->
-  <script src="https://cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.js"></script>
-  <script src="https://cdn.fusioncharts.com/fusioncharts/latest/themes/fusioncharts.theme.fusion.js"></script>
+  <script defer src="https://cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.js"></script>
+  <script defer src="https://cdn.fusioncharts.com/fusioncharts/latest/themes/fusioncharts.theme.fusion.js"></script>
+  
+  <!-- Incluye nuestro fichero compilado -->
+  <script defer src="la-liga.js"></script>
+
 </head>
 <body>
-  <!-- Div para renderizar el gráfico -->
-  <div id="chart-container">Gráfico se renderizará aquí...</div>
+  <!-- Título a mostrar sobre el gráfico-->
+  <h1>Clasificación La Liga: 2023 - 2024</h1>
 
-  <!-- Incluye el script TypeScript al final del cuerpo -->
-  <script src="la-liga.js"></script>
+  <!-- Div donde se renderizará el gráfico -->
+  <div id="chart-container"> </div>
+
 </body>
 </html>
