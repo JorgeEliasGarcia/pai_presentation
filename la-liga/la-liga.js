@@ -1,15 +1,29 @@
+/**
+ * Universidad de La Laguna
+ * Escuela Superior de Ingeniería y Tecnología
+ * Grado en Ingeniería Informática
+ * Programación de Aplicaciones Interactivas
+ *
+ * @author Jorge Elías García y Juan Aday Siverio González
+ * @since 06 abril 2024
+ * @desc  la-liga.ts
+ *        File to draw a chart with the classification of the Spanish League.
+ *        It uses FusionCharts library to draw the chart.
+*/
+// Include the FusionCharts library and the theme.
 /// <reference path='../node_modules/fusioncharts/fusioncharts.charts.d.ts' />
 /// <reference path='../node_modules/fusioncharts/themes/fusioncharts.theme.fusion.d.ts' />
-var BGCOLOR = '#2c3e50';
+// Define the source of the data. It is an object with two properties: chart and data.
 var dataSource = {
     chart: {
         caption: 'Clasificación de la Liga Española',
         subCaption: 'Temporada 2023-2024',
         xAxisName: 'Equipos',
         yAxisName: 'Puntos',
-        baseFontColor: '#ffffff', // Establece todos los colores de texto en blanco
+        baseFontColor: '#ffffff',
+        theme: 'fusion',
         animation: true,
-        bgColor: BGCOLOR,
+        bgColor: '#2c3e50',
         valueFontColor: '#ffffff',
         showValues: true,
         plotToolText: '<div style=\'font-weight:bold; background-color:lightblue; padding:10px; border-radius:5px; color:black;\'> <b>$label</b>: $value puntos </div>',
@@ -32,7 +46,7 @@ var dataSource = {
         { label: 'Mallorca', value: '36', color: '#E50000,#000000' } // Rojo y negro
     ]
 };
-// Renderiza el gráfico
+// Render the graph. 
 FusionCharts.ready(function () {
     var chart = new FusionCharts({
         type: 'column2d',

@@ -1,6 +1,19 @@
+/**
+ * Universidad de La Laguna
+ * Escuela Superior de Ingeniería y Tecnología
+ * Grado en Ingeniería Informática
+ * Programación de Aplicaciones Interactivas
+ *
+ * @author Jorge Elías García y Juan Aday Siverio González
+ * @since 06 abril 2024
+ * @desc  pie-chart.ts
+ *        File to draw a pie chart with the distribution of the income by sector in the Canary Islands.
+ *        It uses FusionCharts library to draw the chart.
+*/
+// Include the FusionCharts library and the theme.
 /// <reference path='../node_modules/fusioncharts/fusioncharts.charts.d.ts' />
 /// <reference path='../node_modules/fusioncharts/themes/fusioncharts.theme.fusion.d.ts' />
-// Datos del gráfico
+// Define the source of the data. It is an object with two properties: chart and data. 
 var dataSource = {
     chart: {
         caption: 'Distribución de Ingresos por Sector en Canarias',
@@ -18,7 +31,7 @@ var dataSource = {
         { label: 'Turismo', value: '45' }
     ]
 };
-// Renderiza el gráfico
+// Render the graph.
 FusionCharts.ready(function () {
     var chart = new FusionCharts({
         type: 'pie2d',
