@@ -13,14 +13,14 @@
 
 // Include the FusionCharts library and the theme.
 /// <reference path='../node_modules/fusioncharts/fusioncharts.charts.d.ts' />
-/// <reference path='../node_modules/fusioncharts/themes/fusioncharts.theme.fusion.d.ts' />
+/// <reference path='../node_modules/fusioncharts/themes/fusioncharts.theme.carbon.d.ts' />
 
 // Define the source of the data. It is an object with two properties: chart and data. 
 const dataSource = {
   chart: {
     caption: 'Distribución de Ingresos por Sector en Canarias',
     subCaption: 'Año 2022',
-    theme: 'candy',
+    theme: 'carbon',
     showPercentValues: true,
     decimals: true,
     showLegend: true,
