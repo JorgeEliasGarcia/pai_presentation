@@ -15,6 +15,7 @@
 /// <reference path='../node_modules/fusioncharts/fusioncharts.charts.d.ts' />
 /// <reference path='../node_modules/fusioncharts/themes/fusioncharts.theme.fusion.d.ts' />
 
+
 // Define the source of the data. It is an object with two properties: chart and data.
 const dataSource = {
   chart: {
